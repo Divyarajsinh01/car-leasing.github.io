@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    padding: 17px 0 0 0px;
+    background: black;
+    top: 0;
+    position:sticky;
+    z-index: 1;
+    /* height: 100%; */
+    width: 100%;
+    /* opacity: 0.5;*/
+}
+/* .header::before{
+    content: "";
+    background: rgb(0, 0, 0);
+    top:0 ;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+} */
+nav {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+#img {
+    height: 38px;
+    padding: 0px 36vw 22px 2vw;
+}
+nav ul {
+    margin: -31px 0px 0 19px;
+    display: flex;
+}
+
+nav ul li {
+    padding: 40px 0 30px 0;
+    border: 1px solid #f5f5f559;
+    list-style: none;
+}
+nav ul li#active{
+    background:rgb(135, 7, 135);
+}
+nav ul li:hover{
+    background:rgb(135, 7, 135);
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 0 2vw 0 2vw;
+    text-decoration: none;
+
+}
+.home{
+    margin: 0 0 0 -14vw;
+    background: url(images/leasing-slider-bg.jpg) no-repeat;
+    height: 106vh;
+    overflow: hidden;
+}
+.d1{
+    width: 35vw;
+    margin: 51vh 0 0 19vw;
+    background: rgb(124 38 124 / 84%);
+    height: 40vh;
+}
+.d1 h1{
+    color: whitesmoke;
+    padding: 30px 0 0 40px;
+    font-size: 55px;
+}
+.d1 button{
+    margin: 21px 0 0 40px;
+    box-sizing: border-box;
+    height: 8vh;
+    width: 9vw;
+    font-size: 21px;
+    background: black;
+    color: whitesmoke;
+    border: none;
+}
+.d2{
+    display: flex;
+    margin: 30px 0 0 98vw;
+}
+.d2 h4{
+    padding: 5px 15px 0 30px;
+    color: whitesmoke;
+}
+.home1{
+    height: 120vh;
+    background: whitesmoke;
+    padding: 18vh 0 0 20vh;
+}
+.m-1 {
+    width: 55vw;
+    border-top: 1px solid rgb(0 0 0 / 12%);
+    padding: 0px 0 0 30px;
+    margin: 0px 0px 0 22vw;
+    position: absolute;
+}
+.m-1 h1{
+    margin: -23px 0vw 0 -21vw;
+    padding: 0px 0px 0 0px;
+}
+.m-2{
+    margin: 80px 0 0 20px;
+    display: flex;
+}
+.m-2 div{
+    margin: 0 30px 0 20px;
+    background: white;
+    height: 58vh;
+}
+.m-2 div img{
+    height: 240px;
+}
+.m-2 div h1{
+    padding: 15px 0px 20px 32px;
+    width: 20vw;
+}
+.m-2 div h2{
+    padding: 3px 0 0 40px;
+}
+.home1 button{
+    height: 8vh;
+    margin: 90px 0 0 28vw;
+    width: 28vw;
+    font-size: large;
+    background: black;
+    color: whitesmoke;
+    border: none;
+}
+.home2{
+    margin: 0 0 150px 260px;
+    display: flex;
+}
+.home2 img{
+    /* position: absolute; */
+    height: 88vh;
+    width: 20vw;
+    margin: -70px 0 0 0;
+}
+.m-3{
+    margin: 50px 0 0 100px;
+}
+.m-3 h4{
+    color: rgb(11 181 181);
+    margin: 0px 0 20px 0;
+}
+.m-3 h1{
+    margin: 30px 0 60px 0;
+    font-size: 50px;
+}
+.m-31{
+    display: inline;
+    background: rgb(228 242 253);
+}
+.m-32{
+    margin: 18px 0 60px 0;
+}
+.m-3 button{
+    background: black;
+    width: 8vw;
+    height: 8vh;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
+}
+.home3{
+    background: black;
+    height: 117vh;
+}
+.home3 h5{
+    color: whitesmoke;
+    padding: 100px 0 0 200px;
+}
+.home3 h1{
+    margin: 20px 0 60px 200px;
+    color: whitesmoke;
+    font-size: 50px;
+}
+.m-4{
+    display: flex;
+    margin: 0 0 0 200px;
+}
+.d1-1{
+    margin: 0 20px 0 0px;
+}
+.img1{
+    height: 66vh;
+}
+.h-1{
+    position: absolute;
+    color: whitesmoke;
+    margin: -100px 0 0 60px;
+    font-size: 30px;
+    width: 13vw;
+}
+.img2{
+    width: 25vw;
+    height: 32vh;
+    margin: 0 0 10px 0;
+}
+.h-2{
+    font-size: 22px;
+    color: white;
+    margin: -70px 0px 46px 32px;
+}
+.img3{
+    width: 25vw;
+    height: 32vh;
+}
+.h-3{
+    color: whitesmoke;
+    margin: -70px 0 120px 39px;
+    font-size: 20px;
+}
+.v1{
+    display: flex;
+    border-bottom: 2px solid rgb(0 0 0 / 31%);
+    padding: 0 0 90px 0;
+}
+.v1 h1{
+    margin: 100px 0 0 200px;
+    font-size: 80px;
+}
+.v1 h2{
+    margin: 60px 0 10px 200px;
+    font-size: 35px;
+}
+.v1 p{
+    margin: 0 0 0 200px;
+    font-size: 16px;
+}
+.v1 button{
+    color: whitesmoke;
+    height: 10vh;
+    width: 12vw;
+    margin: 30px 0px 0px 200px;
+    background: black;
+    font-size: 18px;
+    border: none;
+}
+.v1 img{
+    height: 45vh;
+    /* position: absolute; */
+    margin: 230px 0 0 -300px;
+}
+.v2{
+    display: flex;
+    margin: 100px 0 0 200px;
+    justify-content: center;
+    align-items: center;
+}
+.v2 div{
+    margin: 0 130px 0 0px;
+}
+.v2 div h1{
+    color: rgb(146 27 146);
+    font-size: 60px;
+    margin: 0 0 10px 0;
+}
+.v2 div h2{
+    font-size: 32px;
+    margin: 10px 0 20px 0;
+}
+.v2 div p{
+    font-size: 17px;
+}
+.bt{
+    font-size: 18px;
+    color: whitesmoke;
+    width: 30vw;
+    margin: 80px 0 0 570px;
+    height: 10vh;
+    background: rgb(141 7 141);
+    border: none;
+}
+footer{
+    background: whitesmoke;
+    margin-top: 120px;
+    /* margin-bottom: 30px; */
+}
+#ft{
+    border-bottom: 2px solid rgb(0 0 0 / 16%);
+    padding: 110px 0px 100px 170px;
+    display: flex;
+    /* margin: 110px 0px 0 170px; */
+}
+#ft1{
+    margin-right: 500px;
+}
+#ft1 img{
+    margin: 0 0 40px 0;
+    width: 12vw;
+    height: 7vh;
+}
+#ft2 h2{
+    margin-bottom: 15px;
+}
+#ft2 input{
+    margin-right: 5px;
+    padding-left: 10px;
+    height: 6vh;
+    width: 14vw;
+    border: none;
+}
+#ft2 button{
+    background: black;
+    color: whitesmoke;
+    border: none;
+    height: 6vh;
+    width: 6vw;
+}
+#ft2 p{
+    margin: 20px 0 20px 0;
+}
+#ft-1{
+    display: flex;
+    margin-top: 50px;
+}
+#p1{
+    margin:  0 40px 0 0;
+}
+#p2{
+    color: rgb(129, 7, 129);
+}
+#p-3{
+    margin: 16px 0 0px 170px;
+    padding: 0 0 30px 0;
+}
